@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+img{
+    max-width: 264px;
+    width: 100%;
+    border-radius: 50%;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(157deg, #FFF -19%, #FFEFBA 99.15%);
+    /* overflow: hidden; */
+}
+.container {
+    /* max-width: 588px; */
+    /* max-height: 513px; */
+    max-width: 100%;
+    margin-top: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    margin:  112px auto;
+    gap:67px;
+}
+.title {
+/* Diplay/Bold/Heading-1 */
+font-size: 72px;
+font-weight: 700;
+/* margin-top: 112px; */
+max-width: 100%;
+}
+
+.coinimg:hover{
+    cursor:pointer;
+    transform: scale(0.9);
+    opacity: 0;
+
+}
+.coinimg{
+transition: ALL 0.1S ease ;     
+   
+}
+
+/* ????вопрос по минимизации */
+.current {    
+    font-size: 16px;  
+    font-weight: 400;
+    line-height: 28px; 
+}
+.bold{
+font-weight: 700;
+}
