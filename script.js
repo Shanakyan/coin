@@ -11,8 +11,7 @@ let tails  = 0;
 let checkCoin = () =>{
     let randomCoin = Math.floor(Math.random()*2);
     ++gameCounter;
-    counter.textContent = `${gameCounter}`;
-    // coinImg.style.animation = "coinAnim";
+    counter.textContent = `${gameCounter}`;   
     if(randomCoin==0 ){
         coinImg.src = './img/reshka.jpg';
         console.log(randomCoin);
@@ -28,5 +27,5 @@ let checkCoin = () =>{
     }
 
 }
-coinImg.addEventListener("mouseover",checkCoin);
+coinImg.addEventListener("click",checkCoin);
 
